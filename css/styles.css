@@ -42,10 +42,14 @@ h1{
 }
 .menu-item{
     border-style: solid;
+    margin-bottom: 8px;
     border-width: 3px;
     border-radius: 8px;
     background-color: black;
 }   
+.menu-item.selected{
+    border-color:red;
+}
 .menu-item p{
     color: white;
 }
